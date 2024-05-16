@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    /* Alinha os botões lado a lado no mobile */
+    display: inline-block;
+    margin: 0 5px; /* Espaçamento entre os botões */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Adiciona fundo escuro aos botões */
+    background-color: #0056b3;
+}
+
+nav a:hover {
+    background-color: #003d74; /* Fundo mais escuro ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    /* Define as cores dos títulos */
+    color: #007bff; /* Mantém o azul para o primeiro título */
+}
+
+h2:nth-child(2) { /* Segundo título (Sintomas do Autismo) */
+    color: yellow; /* Amarelo */
+}
+
+h2:nth-child(3) { /* Terceiro título (Diagnóstico do Autismo) */
+    color: red; /* Vermelho */
+}
+
+h2:nth-child(4) { /* Quarto título (Apoio e Recursos) */
+    color: green; /* Verde */
+}
+
+h2:nth-child(5) { /* Quinto título (Referências) */
+    color: #007bff; /* Mantém o azul para o último título */
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /*width: 100%;*/ /* Comente esta linha se quiser o rodapé com largura normal */
+}
+
+/* Ajustes para telas menores (mobile) */
+@media (max-width: 768px) {
+    nav li {
+        display: block; /* Empilha os botões */
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilo para o player de áudio */
+audio {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.audio-container {
+    display: flex; /* Alinha o player e o texto lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.audio-description {
+    margin-left: 10px; /* Espaço entre o player e o texto */
+}
