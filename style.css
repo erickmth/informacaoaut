@@ -92,8 +92,8 @@ a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #a5a5a5;
+    color: #000000;
     padding: 20px;
     text-align: center;
     /*width: 100%;*/ /* Comente esta linha se quiser o rodapé com largura normal */
@@ -120,4 +120,9 @@ audio {
 
 .audio-description {
     margin-left: 10px; /* Espaço entre o player e o texto */
+}
+.fiep-logo {
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém as proporções da imagem */
+    margin-top: 10px; /* Ajuste a margem superior */
 }
